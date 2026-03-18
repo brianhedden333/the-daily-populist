@@ -430,6 +430,7 @@ a:hover {
 .article-page {
   padding: 40px 20px;
   max-width: 800px;
+  overflow: hidden;
 }
 
 .article-header {
@@ -452,6 +453,7 @@ a:hover {
 
 .article-body {
   margin-top: 28px;
+  overflow: hidden;
 }
 
 .article-body p {
@@ -470,10 +472,13 @@ a:hover {
 /* Populist Embeds */
 .populist-embed {
   margin: 32px 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .populist-embed iframe {
   width: 100% !important;
+  max-width: 100% !important;
   border: none;
 }
 
