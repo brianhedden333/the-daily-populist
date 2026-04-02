@@ -482,6 +482,10 @@ a:hover {
   border: none;
 }
 
+.populist-embed[data-embed-id="74bd2d60-80b6-40e0-81c8-4f5d6c5d5ace"] {
+  max-width: 500px;
+}
+
 /* Embed Placeholder */
 .embed-placeholder {
   background: #eef1f5;
